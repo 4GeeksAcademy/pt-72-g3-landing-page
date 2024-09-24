@@ -7,9 +7,14 @@ import Cards from "./Cards";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+	<div clssName="mx-auto">
+		<div className="card-container d-flex justify-content-center">
+			<Cards img={"https://picsum.photos/id/237/200/300"} />
+			<Cards />
+			<Cards />
 			<Cards />
 		</div>
+	</div>	
 	);
 };
 
