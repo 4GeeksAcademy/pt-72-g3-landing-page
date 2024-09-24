@@ -10,9 +10,9 @@ const Home = () => {
 	<div clssName="mx-auto">
 		<div className="card-container d-flex justify-content-center">
 			<Cards img={"https://picsum.photos/id/237/200/300"} />
-			<Cards />
-			<Cards />
-			<Cards />
+			<Cards img={"https://picsum.photos/id/100/200/300/"} />
+			<Cards img={"https://picsum.photos/id/111/200/300"}/>
+			<Cards img={"https://picsum.photos/id/114/200/300"}/>
 		</div>
 	</div>	
 	);
