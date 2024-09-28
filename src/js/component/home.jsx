@@ -3,24 +3,32 @@ import React from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
-//create your first component
-const Home = () => {
+
+const Footer = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
+		<div className="footerContainer my-5">
+			<footer className="text-center text-lg-start bg-secondary">
+    			<div className="container d-flex justify-content-center py-5">
+      				<button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
+        				<i className="fab fa-facebook-f"></i>
+      				</button>
+      				<button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
+        				<i className="fab fa-youtube"></i>
+      				</button>
+      				<button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
+        				<i className="fab fa-instagram"></i>
+      				</button>
+      				<button type="button" className="btn btn-primary btn-lg btn-floating mx-2">
+        				<i className="fab fa-twitter"></i>
+      				</button>
+    			</div>
+
+				<div className="text-center text-white p-3">
+      				© 2024 Copyright: 4Geeks pt-72 G3 
+    			</div>
+  			</footer>
+  		</div>
 	);
 };
 
-export default Home;
+export default Footer;
